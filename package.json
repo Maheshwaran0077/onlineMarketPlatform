@@ -1,5 +1,7 @@
 {
   "name": "jvlcart",
+    "homepage": "https://Maheshwaran0077.github.io/onlineMarketPlatform",
+
   "version": "1.0.0",
   "description": "ecommerce using MERN stack",
   "main": "server.js",
@@ -7,6 +9,8 @@
     "start": "nodemon backend/server.js",
     "dev": "set NODE_ENV=development&&nodemon backend/server.js",
     "prod": "set NODE_ENV=production&&nodemon backend/server.js",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "seeder": "node backend/utils/seeder.js"
   },
   "author": "JV Logesh",
