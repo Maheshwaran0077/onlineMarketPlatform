@@ -1,4 +1,4 @@
-# JVL cart
+# Online Market Platform
 
 an E-commerce Website built with MERN stack.
 
